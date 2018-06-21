@@ -1,12 +1,14 @@
-### 用微信发送问候
+# wechat_greeting
+利用聚合数据天气的API接口以及封装微信功能的itchat包,发送问候
+
+
+`itchat` 来自:[https://github.com/littlecodersh/ItChat](https://github.com/littlecodersh/ItChat)的开源分享
+
 
 `pip install -r requirements.txt`
 
-`python3 wechat_greeting.py`
+`python wechat_greeting.py`
 
-想要了解`itchat`的朋友:
-[https://github.com/littlecodersh/itchat](https://github.com/littlecodersh/itchat)
+Code中有完整注释
 
-感谢开源分享,利用微信网页端的Python封装模块,不用重复造轮子
-
-![示例](https://i.imgur.com/uj0HRoE.jpg)
+示例图片:![](https://i.imgur.com/gFSTR23.jpg)
