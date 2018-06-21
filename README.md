@@ -1,0 +1,2 @@
+# wechat_greeting
+利用聚合数据天气的API接口以及封装微信功能的itchat包,发送问候
