@@ -7,7 +7,7 @@ import requests
 import itchat
 
 LOCATION = '重庆'  # 地址
-REMARK_NAME = '小灯泡'  # 微信上对方的备注名
+REMARK_NAME = ''  # 微信上对方的备注名
 
 # 获取天气数据接口
 WEATHER_API = "https://www.sojson.com/open/api/weather/json.shtml?city={}"
@@ -17,8 +17,8 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; "
                   "Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0",
 }
-MORNING_MSG = '/:X-)懒猪,早上好!/:,@-D今天是{},天气{},最高温度{},最低温度{}\n{}\n'  # 符号是微信表情包的符号表示
-EVENING_MSG = '/::*早点休息,晚安，明天最高温度{},最低温度{}\n天气{},{}'
+MORNING_MSG = '今天是{},天气{},最高温度{},最低温度{}\n{}\n'  # 符号是微信表情包的符号表示
+EVENING_MSG = '明天最高温度{},最低温度{}\n天气{},{}'
 SEND_TIME = 9  # 目标早九点晚九点发信息
 
 
